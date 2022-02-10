@@ -1,6 +1,12 @@
 # Nicholas Reitano's Assessment for SIL International
 
 # API Endpoint (Optional Task 2b)
+
+## API Endpoint Location (once server is running)
+````html
+localhost:8545/post-data
+````
+
 ## Installation
 
 ##### In the unzipped and extracted folder, navigate to the root folder named, "endpoint-flask-project" located in the "2b.APIEndpoint" folder (**2b.APIEndpoint/endpoint-flask-project**).
