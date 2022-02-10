@@ -8,7 +8,8 @@ http://localhost:8545/post-data
 ````
 
 ## Overview
-This is a REST API endpoint that receives a JSON POST request and returns entries from the gotolog dataset in JSON format.<br> 
+This is a REST API endpoint that receives a JSON POST request containing an author, a title, or both.<br>
+The API then returns all related entries from the [gotolog dataset](https://cdstar.shh.mpg.de/bitstreams/EAEA0-9478-C22F-4AAF-0/glottolog_source.bib.zip) in JSON format.<br> 
 This API endpoint is served via a Python Flask microframework. 
 
 ## Requirements
