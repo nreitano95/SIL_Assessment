@@ -1,9 +1,6 @@
 from flask import Flask, request    # Using flask to serve API Endpoint
-
 import os                           # Using os to identify port
-
 import json                         # Using json module to manipulate json data 
-
 import pandas as pd                 # Using Pandas to faciltate data querying in .csv files
 
 # Configuration
