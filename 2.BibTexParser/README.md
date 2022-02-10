@@ -2,6 +2,9 @@
 
 # BibTeX Parser (Task 2)
 
+## Overview
+This is a Python program (myBibTexParser.py) that takes a .bib file (as in the gotolog_source.bib file) and outputs a .CSV file containing all of the entries from the .bib file organized into 4 columns: ID, Title, Subject Language, and the year.
+
 ## Requirements
 ##### Must be running Python 3.2 or newer.
 

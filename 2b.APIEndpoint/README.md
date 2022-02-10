@@ -8,7 +8,7 @@ http://localhost:8545/post-data
 ````
 
 ## Overview
-REST API endpoint that receives a JSON POST request and returns entries from the gotolog dataset in JSON format. 
+This is a REST API endpoint that receives a JSON POST request and returns entries from the gotolog dataset in JSON format<br> 
 API is served via a Python Flask microframework. 
 
 ## Requirements
@@ -52,9 +52,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## JSON POST Request Format
+#### JSON POST Request Format
 
-##### JSON can contain either author, title, or both.
+###### JSON can contain either author, title, or both.
 
 ````json
 {
