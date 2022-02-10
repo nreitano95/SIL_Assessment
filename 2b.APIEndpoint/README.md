@@ -31,10 +31,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-## Important!
-### Unzip the large .CSV file located in the "dataForPart2B.zip" folder and place the .CSV file in the root directory.
-
 ## Usage and Example POST requests
 
 #### Bash Usage Instructions
