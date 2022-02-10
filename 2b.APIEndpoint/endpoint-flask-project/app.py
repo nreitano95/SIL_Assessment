@@ -40,18 +40,24 @@ def query_csv(request_data):
     Return JSON object containing all entries related to the title or author.
     """
     
+    # Use Pandas to read .csv file
     data = pd.read_csv("dataForPart2B.csv", encoding="UTF-32")
 
+    # Query the .CSV file based on the user-defined JSON input.
     if {'title', 'author'} <= request_data.keys():
+        # Author or title
         data = data[(data['title'].str.contains(request_data['title'], na=False)) | (data['author'].str.contains(request_data['author'], na=False))]
 
     elif request_data.__contains__('author'):
+        # Author only
         data = data[data['author'].str.contains(request_data['author'], na=False)]
 
     elif request_data.__contains__('title'):
+        # Title only
         data = data[data['title'].str.contains(request_data['title'], na=False)]
 
     else: 
+        # Invalid Input
         return "\n**** Incorrect JSON format used. Please see correct usage. ****\n"
     
     # Use the Pandas module to format the data 
