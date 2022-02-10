@@ -10,7 +10,12 @@ http://localhost:8545/post-data
 ## Overview
 This is a REST API endpoint that receives a JSON POST request containing an author, a title, or both.<br>
 The API then returns all related entries from the [gotolog dataset](https://cdstar.shh.mpg.de/bitstreams/EAEA0-9478-C22F-4AAF-0/glottolog_source.bib.zip) in JSON format.<br> 
-This API endpoint is served via a Python Flask microframework. 
+This API endpoint is served via a Python Flask microframework.<br>
+<br> 
+The .CSV file used for this was generated using a modified version of the "myBibTexParser.py" program from part 2.<br>
+The modified version of the BibTeX parser included an additional column for the author which then outputted a .CSV file with all of the entries from the .bib file. 
+<br>
+The .CSV file for this API endpoint has 5 columns: ID, Title, Subject Language, Year, Author.
 
 ## Requirements
 ##### Must be running Python 3.2 or newer.
