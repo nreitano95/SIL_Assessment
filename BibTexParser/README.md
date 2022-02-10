@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Important!
-### Unzip the large BibTeX file and place in the root directory
+### Unzip the large BibTeX file located in the "gotolog_source.zip" folder and place in the root directory
 
 ## Usage
 
