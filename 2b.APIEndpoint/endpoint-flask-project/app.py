@@ -12,7 +12,16 @@ def root():
    """ 
    Root of Flask Application. Could be used in future development.
    """
-   return ""
+   return "Web Interface Not Used. Request POST data from http://localhost:8545/post-data."
+
+
+@app.route('/post-data')
+def get_data():
+    """ 
+    Method to handle GET request to the '/post-data' endpoint. 
+    GET not used; therefore, returns a help message.
+    """
+    return "Web Interface Not Used. Obtain POST response data via command line."
 
 
 @app.route('/post-data', methods=['POST'])

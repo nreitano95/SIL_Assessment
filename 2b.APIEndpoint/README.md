@@ -4,7 +4,7 @@
 
 ## API Endpoint Location (once server is running)
 ````html
-localhost:8545/post-data
+http://localhost:8545/post-data
 ````
 
 ## Installation
