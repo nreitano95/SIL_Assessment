@@ -3,10 +3,10 @@
 # API Endpoint (Optional Task 2b)
 ## Installation
 
-##### In the unzipped and extracted folder, navigate to the root folder named, 2b.APIEndpoint/endpoint-flask-project.
+##### In the unzipped and extracted folder, navigate to the root folder named, "endpoint-flask-project" located in the "2b.APIEndpoint" folder (**2b.APIEndpoint/endpoint-flask-project**).
 
 ### Important!
-##### Unzip the large .CSV file located in the "dataForPart2B.zip" folder and place the .CSV file in the root directory.
+##### Unzip the large .CSV file located in the "dataForPart2B.zip" folder and place the .CSV file in the root directory ("endpoint-flask-project"). 
 
 ##### Create a virtual environment in the root directory to house the dependencies required for this program.
 
