@@ -29,7 +29,8 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-##### Unzip the large BibTeX file and place in the root directory
+## Important!
+### Unzip the large BibTeX file and place in the root directory
 
 ## Usage
 
