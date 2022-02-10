@@ -16,7 +16,7 @@ def root():
 
 
 @app.route('/post-data', methods=['POST'])
-def post_post_data():
+def post_data():
     """
     Receives a POST request and calls the query_csv method with the request data as the parameter.
     Returns the JSON data of all of the entries related to the title or author.
