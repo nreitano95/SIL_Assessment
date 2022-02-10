@@ -29,7 +29,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-##### Unzip the large .CSV file and place in the root directory
+##### Unzip the large .CSV file located in the "dataForPart2B.zip" folder and place in the root directory
 
 ## Usage and Example POST requests
 
