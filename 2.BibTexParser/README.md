@@ -5,7 +5,7 @@
 
 ##### Unzip folder and navigate to the root folder named, 2.BibTexParser.
 
-##### Create a virtual environment to house the dependencies required for this program.
+##### Create a virtual environment in the root directory to house the dependencies required for this program.
 
 ````bash
 $ python -m venv venv
@@ -15,7 +15,7 @@ $ python -m venv venv
 
 Windows:
 ````bash
-$ venv\Scripts\activate
+$ venv\Scripts\activate.bat
 
 ````
 Linux-based (including MacOS): 

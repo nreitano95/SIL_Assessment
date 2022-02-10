@@ -5,7 +5,7 @@
 
 ##### Unzip folder and navigate to the root folder named, 2b.APIEndpoint/endpoint-flask-project.
 
-##### Create a virtual environment to house the dependencies required for this program.
+##### Create a virtual environment in the root directory to house the dependencies required for this program.
 
 ````bash
 $ python -m venv venv
@@ -41,11 +41,11 @@ $ python app.py
 ```
 
 ## Example POST Requests
-###### Can be entered in a bash shell once the server is running.
+###### Can be entered in another bash shell once the server is running.
 
 ##### Author Only
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenbacher\"}" "localhost:8545/pull-data"
+$ curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -59,7 +59,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenba
 
 ##### Title Only
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\" }" "localhost:8545/pull-data"
+$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\" }" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -69,7 +69,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitula
 
 ##### Author and Title
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\", \"author\" : \"Kretzenbacher\"}" "localhost:8545/pull-data"
+$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\", \"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
 ````
 ###### Output
 ````json
@@ -82,7 +82,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitula
 
 #### No Results Example
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkjadsklahdjuthqajkerfldskjfhajkrhtajkdfakldjfad\", \"author\" : \"qwertyqu\"}" "localhost:8545/pull-data"
+$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkjadsklahdjuthqajkerfldskjfhajkrhtajkdfakldjfad\", \"author\" : \"qwertyqu\"}" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -92,7 +92,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkj
 
 #### Invalid Input
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"ddadfd\" : \"Cognitive Socio\"}" "localhost:8545/pull-data"
+$ curl -X POST -H "Content-type: application/json" -d "{\"ddadfd\" : \"Cognitive Socio\"}" "localhost:8545/post-data"
 ````
 ###### Output
 ````json
