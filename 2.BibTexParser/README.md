@@ -3,7 +3,7 @@
 # BibTeX Parser (Task 2)
 ## Installation
 
-##### Unzip folder and navigate to the root folder named, BibTexParser.
+##### Unzip folder and navigate to the root folder named, 2.BibTexParser.
 
 ##### Create a virtual environment to house the dependencies required for this program.
 
@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Important!
-### Unzip the large BibTeX file located in the "gotolog_source.zip" folder and place in the root directory
+### Unzip the large BibTeX file located in the "gotolog_source.zip" folder and place the .bib file in the root directory.
 
 ## Usage
 
