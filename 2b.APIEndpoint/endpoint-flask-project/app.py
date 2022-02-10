@@ -63,7 +63,6 @@ def query_csv(request_data):
     # If the queried data contains at least one entry, return the data.
     if data.__contains__('id'):
         return data
-
     else: 
         return "\n**** No entries related to requested title or author. ****\n"
 
