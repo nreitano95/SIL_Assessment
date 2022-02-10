@@ -8,8 +8,8 @@ http://localhost:8545/post-data
 ````
 
 ## Overview
-This is a REST API endpoint that receives a JSON POST request and returns entries from the gotolog dataset in JSON format<br> 
-API is served via a Python Flask microframework. 
+This is a REST API endpoint that receives a JSON POST request and returns entries from the gotolog dataset in JSON format.<br> 
+This API endpoint is served via a Python Flask microframework. 
 
 ## Requirements
 ##### Must be running Python 3.2 or newer.
