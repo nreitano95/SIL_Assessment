@@ -59,8 +59,8 @@ python app.py
 
 ````json
 {
- "author": "John Lennox", 
-  "title": "2084"
+ "author": "Kretzenbacher", 
+  "title": "Rekapitulation"
 }
 ````
 
