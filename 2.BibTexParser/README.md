@@ -1,6 +1,10 @@
 # Nicholas Reitano's Assessment for SIL International
 
 # BibTeX Parser (Task 2)
+
+## Requirements
+##### Must be running Python 3.2 or newer.
+
 ## Installation
 
 ##### In the unzipped and extracted folder, navigate to the root folder named, 2.BibTexParser.
