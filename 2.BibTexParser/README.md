@@ -11,25 +11,25 @@
 ##### Create a virtual environment in the root directory to house the dependencies required for this program.
 
 ````bash
-$ python -m venv venv
+python -m venv venv
 ````
 
 ##### Activate the virtual environment that was just created (may be different syntax for Windows vs. Linux-based Operating Systems)
 
 Windows:
 ````bash
-$ venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 
 ````
 Linux-based (including MacOS): 
 ````bash
-$ source venv/bin/activate
+source venv/bin/activate
 ```` 
 
 ##### Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required python packages.
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -37,11 +37,11 @@ $ pip install -r requirements.txt
 ## Usage
 
 ```bash
-$ python myBibTexParser.py -inFile=<name of your .bib file> -outFile=<name of your .csv file>
+python myBibTexParser.py -inFile=<name of your .bib file> -outFile=<name of your .csv file>
 ```
 #### Example Usage: 
 ```bash
-$ python myBibTexParser.py -inFile=gotolog_source.bib -outFile=out.csv
+python myBibTexParser.py -inFile=gotolog_source.bib -outFile=out.csv
 ```
 
 ## Usage Notes

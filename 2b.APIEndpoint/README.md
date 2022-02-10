@@ -11,25 +11,25 @@
 ##### Create a virtual environment in the root directory to house the dependencies required for this program.
 
 ````bash
-$ python -m venv venv
+python -m venv venv
 ````
 
 ##### Activate the virtual environment that was just created (may be different syntax for Windows vs. Linux-based Operating Systems)
 
 Windows:
 ````bash
-$ venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 
 ````
 Linux-based (including MacOS): 
 ````bash
-$ source venv/bin/activate
+source venv/bin/activate
 ````
 
 ##### Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required python packages.
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Important!
@@ -40,7 +40,7 @@ $ pip install -r requirements.txt
 #### Bash Usage Instructions
 ###### Starts Flask Server 
 ```bash
-$ python app.py
+python app.py
 ```
 
 ## Example POST Requests
@@ -48,7 +48,7 @@ $ python app.py
 
 ##### Author Only
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
+curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -62,7 +62,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"author\" : \"Kretzenba
 
 ##### Title Only
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\" }" "localhost:8545/post-data"
+curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\" }" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -72,7 +72,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitula
 
 ##### Author and Title
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\", \"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
+curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitulation\", \"author\" : \"Kretzenbacher\"}" "localhost:8545/post-data"
 ````
 ###### Output
 ````json
@@ -85,7 +85,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"Rekapitula
 
 #### No Results Example
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkjadsklahdjuthqajkerfldskjfhajkrhtajkdfakldjfad\", \"author\" : \"qwertyqu\"}" "localhost:8545/post-data"
+curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkjadsklahdjuthqajkerfldskjfhajkrhtajkdfakldjfad\", \"author\" : \"qwertyqu\"}" "localhost:8545/post-data"
 ````
 
 ###### Output
@@ -95,7 +95,7 @@ $ curl -X POST -H "Content-type: application/json" -d "{\"title\" : \"kljadsflkj
 
 #### Invalid Input
 ````bash 
-$ curl -X POST -H "Content-type: application/json" -d "{\"ddadfd\" : \"Cognitive Socio\"}" "localhost:8545/post-data"
+curl -X POST -H "Content-type: application/json" -d "{\"ddadfd\" : \"Cognitive Socio\"}" "localhost:8545/post-data"
 ````
 ###### Output
 ````json
